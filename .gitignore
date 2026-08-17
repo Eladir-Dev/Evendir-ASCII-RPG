@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Other files and directories to ignore
+load.txt
+
 # C extensions
 *.so
 
