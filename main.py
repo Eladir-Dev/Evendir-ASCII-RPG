@@ -53,8 +53,7 @@ def draw(length=10, line_char="-", start="+", finish="+"):
     This method draws a line
     """
     print(start, end="")
-    for i in range(length):
-        print(line_char, end="")
+    print(line_char * length, end="")
     print(finish)
 
 def save():
